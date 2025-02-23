@@ -73,6 +73,8 @@ Al final del recorrido, se vacía la pila de operadores en la salida.
 
 ![image](https://github.com/user-attachments/assets/8ad74cc7-21d6-400f-b9ba-cce54d9830c9)
 
+---
+
 ## 3. Evaluación de Expresión Postfija (`evaluatePostfix`)
 
 Una vez que la expresión está en notación postfija, `evaluatePostfix` evalúa la expresión utilizando una pila (`stack`).
@@ -100,8 +102,6 @@ Este método recorre una lista de tokens (ArrayList<String> tokens) que represen
 3. **Constantes:**  
    `pi` se añade a la pila directamente como `Math.PI`.
 
----
-
 ### Ejemplo de Evaluación
 
 #### Expresión en notación infija: 
@@ -116,6 +116,7 @@ Este método recorre una lista de tokens (ArrayList<String> tokens) que represen
 #### Resultado final:
 5.0
 
+---
  ## 4. Manejo de Funciones y Constantes Científicas
 
 Para definir funciones como `sin`, `cos`, `tan`, `sqrt`, `factorial`, `pi`, hemos implementado los métodos `isFunction` y `evaluatePostfix`. Cada función científica tiene un caso específico en `evaluatePostfix`, aplicando la operación correcta o añadiendo `Math.PI` para `pi`.
