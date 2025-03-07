@@ -2,16 +2,6 @@
 
 Esta calculadora científica es capaz de realizar operaciones aritméticas básicas (suma, resta, multiplicación, división, potencia) y funciones científicas (seno, coseno, tangente, raíz cuadrada, factorial), así como manejar constantes como pi. Además, el código convierte expresiones de notación infija a notación postfija usando el algoritmo Shunting Yard para una evaluación precisa de la prioridad de operadores.
 
-
-## Índice
-1. **Clases y Métodos Principales**
-2. **Conversión de Notación Infija a Postfija (`toPostfix` método)**
-3. **Evaluación de Expresión Postfija (`evaluatePostfix` método)**
-4. **Manejo de Funciones y Constantes Científicas**
-5. **Manejo de Botones e Interfaz Gráfica**
-6. **Pruebas y Casos de Uso**
-
-
 ## Clases y Métodos Principales
 
 - **toPostfix**:  
